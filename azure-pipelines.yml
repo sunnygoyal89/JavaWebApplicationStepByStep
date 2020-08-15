@@ -15,4 +15,4 @@ steps:
     mavenOptions: '-Xmx1072m'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    goals: 'mvn tomcat7:run'
